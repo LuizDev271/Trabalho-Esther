@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+/*"Playwrite NO"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+/*"Wittgenstein"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Tangerine:wght@400;700&display=swap');
+/*"Tangerine"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+/*"Roboto"*/
+
+@font-face {
+    font-family: 'Calibri Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Calibri Light'), url('calibril.woff') format('woff');
+    }
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.4s linear;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.sociais img{
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.500);
+}
+
+.sociais:hover{
+    transition: 0.5s;
+    transform: scale(1.15);
+}
+
+/*Classes
+-------------*/
+.destaque{
+    color: #FECC2F;
+}
+
+.caixa_servico{
+    border: 2px solid #D94E67;
+    border-radius: 20px;
+    height: 545px;
+    box-shadow: 3px 3px 3px #00000071;
+}
+
+span.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #D28638;
+    font-size: 40px;
+
+    width: 130px;
+    height: 130px;
+}
+
+/*Topo
+------------*/
+#topo{
+    height: 675px;
+
+    background-image: url(../img/Topo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#topo h1{
+    color: #FECC2F;
+    width: 600px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+    line-height: 80px;
+    font-size: 100px;
+    font-family: "Tangerine";
+    font-weight: bold;
+    text-shadow: -2px 2px 3px #000000;
+}
+
+#topo p{
+    color: white;
+    width: 300px;
+    line-height: 35px;
+
+    font-size: 32px;
+    font-family: 'Calibri light';
+    text-shadow: -2px 2px 3px #000000;
+}
+
+
+/*Sobre
+------------*/
+#sobre{
+    height: 650px;
+    padding-top: 50px;
+}
+
+#sobre h1{
+    color: #5c290b;
+    text-align: center;
+
+    padding: 30px 0;
+    
+    font-family: "Tangerine";
+    font-weight: bold;
+    font-size: 85px;
+    text-shadow: -2px 2px 3px #0000009d;
+}
+
+#sobre h2{
+    color: #5c290b;
+    
+    font-size: 80px;
+    font-family: "Tangerine";
+    font-weight: bold;
+    text-shadow: -2px 2px 3px #0000009d;
+}
+
+#sobre p{
+    color: #847e7e;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Calibri light';
+}
+
+/*Sobremesas
+------------*/
+#sobremesas{
+    height: 1230px;
+    padding-top: 90px;
+}
+
+#sobremesas #caixas-de-doces :nth-child(2){
+    transition-delay: 300ms;
+}
+
+#sobremesas #caixas-de-doces :nth-child(3){
+    transition-delay: 800ms;
+}
+
+#sobremesas #caixas-de-doces :nth-child(4){
+    transition-delay: 1400ms;
+}
+
+#sobremesas h1{
+    color: #5c290b;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-family: "Tangerine";
+    font-weight: bold;
+    font-size: 80px;
+    text-shadow: -2px 2px 3px #0000009d;
+}
+
+#sobremesas img{
+    border: 5px solid #D94E67;
+    border-radius: 20px;
+}
+
+#sobremesas img:target{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#sobremesas img:hover{
+    transform: scale(1.05);
+}
+
+/*Serviços
+----------------*/
+#servicos{
+    height: 900px;
+    padding-top: 90px;
+}
+
+#servicos h1{
+    color: #FCCA2B;
+    text-align: center;
+    
+    font-family: "tangerine";
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: -2px 2px 3px #0000009d;
+}
+
+#servicos h2{
+    color: #5c290b;
+    text-align: center;
+    padding-bottom: 20px;
+
+    font-family: "Calibri light";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#servicos p{
+    color: #847e7e;
+    text-align: center;
+
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Calibri light";
+}
+
+#servicos .d-flex h1{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+#servicos #caixas :nth-child(1){
+    transition-delay: 300ms;
+}
+
+#servicos #caixas :nth-child(2){
+    transition-delay: 800ms;
+}
+
+#servicos #caixas :nth-child(3){
+    transition-delay: 1400ms;
+}
+
+#servicos #caixas :nth-child(4){
+    transition-delay: 1900ms;
+}
+
+/*Contato
+----------------*/
+#contato{
+    height: 800px;
+    padding-top: 90px;
+}
+
+#contato h1{
+    color: #FCCA2B;
+    text-align: center;
+    
+    font-family: "tangerine";
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: -2px 2px 3px #0000009d;
+}
+
+#contato h2{
+    color: #D94E67;
+    text-align: center;
+    padding-bottom: 50px;
+
+    font-family: "Calibri light";
+    font-weight: bold;
+}
+
+#contato h3{
+    color: #5c290b;
+    padding-bottom: 10px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bolder;
+}
+
+#contato p{
+    color: #5c290b;
+    font-size: 1.2em;
+
+    margin-bottom: 5px;
+    
+    font-family: 'calibri light';
+    font-weight: bolder;
+}
+
+#contato input.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #fb95a8;
+    border-radius: 20px;
+}
+
+#contato textarea.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #fb95a8;
+    border-radius: 20px;
+}
+
+#contato button.btn{
+    color: white;
+    background-color: #D94E67;
+    border-radius: 20px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #fb95a8;
+}
+
+/*Links
+----------*/
+#links{
+    height: 600px;
+    padding-top: 100px;
+    background-color: #566153;
+}
+
+#links h1{
+    color: #F2E2CE;
+    padding-bottom: 10px;
+
+    font-size: 45px;
+    font-family: "Calibri light";
+}
+
+#links h2{
+    color: #F2E2CE;
+    text-align: center;
+
+    padding-top: 15px;
+    font-size: 24px;
+
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+#links ul li{
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+#links a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#links a:hover{
+    color: yellow;
+}
+
+#links p{
+    color: white;
+    font-size: 1.2em;
+
+    margin-bottom: 5px;
+    
+    font-family: 'calibri light';
+    font-weight: bolder;
+}
+
+#links input.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #8C4014;
+    border-radius: 20px;
+}
+
+#links textarea.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #8C4014;
+    border-radius: 20px;
+}
+
+#links button.btn{
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #fb95a8;
+}
+
+/*Rodape
+------------*/
+footer{
+    color: white;
+    height: 60px;
+    background-color: #553f38;
+    padding-top: 20px;
+    
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+footer a{
+    color: #D78B3F;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+/*Whatsapp Icon
+-------------*/
+#whatsapp{
+            
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    animation: anima 0.7s infinite linear alternate-reverse;
+    transform: scale(1);
+}
+
+#whatsapp img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+@keyframes anima{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.13);
+    }
+}
+
+/*Classes Animações JavaScript
+-------------------------------*/
+.invis{
+    opacity: 0;
+    filter: opacity(0px);
+}
+
+.visi{
+    opacity: 1;
+    filter: opacity(200px);
+}

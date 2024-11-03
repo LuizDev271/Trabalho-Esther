@@ -1,0 +1,97 @@
+@media (max-width: 575.98px){
+
+    #topo{
+        display: block;
+    }
+
+    #topo h1{
+        width: 360px;
+        font-size: 65px;
+        line-height: 65px;
+    }
+    
+    #sobre{
+        height: 1100px;
+    }
+
+    #sobre img{
+        width: 250px;
+    }
+
+    #sobre h1{
+        font-size: 65px;
+    }
+
+    #sobre h2{
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    #sobre p{
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    #sobremesas{
+        height: 1000px;
+    }
+    
+    #servicos{
+        height: 1800px;
+    }
+    
+    #contato{
+        padding-top: 160px;
+        height: 950px;
+    }
+
+    #contato form{
+        margin-left: 80px;
+    }
+
+    #contato button.btn{
+        margin-left: 45px;
+    }
+    
+    #links{
+        padding-top: 50px;
+        height: 1000px;
+    }
+
+    #links h1{
+        padding-top: 30px;
+    }
+
+    #links h2{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    #whatsapp{
+        position: fixed;
+        bottom: 70px;
+        right: 10px;
+        animation: anima 0.7s infinite linear alternate-reverse;
+        transform: scale(1);
+    }
+    
+    #whatsapp img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+    @keyframes anima{
+        from{
+            transform: scale(1);
+        }
+    
+        to{
+            transform: scale(1.13);
+        }
+    }
+}
