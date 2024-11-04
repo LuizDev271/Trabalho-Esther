@@ -95,3 +95,246 @@
         }
     }
 }
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    #topo{
+        display: block;
+    }
+
+    #topo h1{
+        width: 360px;
+        font-size: 80px;
+        line-height: 65px;
+    }
+
+    #sobre{
+        height: 1000px;
+    }
+
+    #sobre img{
+        width: 320px;
+    }
+
+    #sobre h1{
+        font-size: 65px;
+    }
+
+    #sobre h2{
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    #sobre p{
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    #sobremesas{
+        height: 1300px;
+    }
+    
+    #servicos{
+        height: 1900px;
+    }
+    
+    #contato{
+        padding-top: 160px;
+        height: 950px;
+    }
+
+    #contato form{
+        margin-left: 80px;
+    }
+
+    #contato button.btn{
+        margin-left: 45px;
+    }
+    
+    #links{
+        padding-top: 50px;
+        height: 1000px;
+    }
+
+    #links h1{
+        padding-top: 30px;
+    }
+
+    #links h2{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+    #whatsapp{
+        position: fixed;
+        bottom: 70px;
+        right: 10px;
+        animation: anima 0.7s infinite linear alternate-reverse;
+        transform: scale(1);
+    }
+    
+    #whatsapp img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    
+    @keyframes anima{
+        from{
+            transform: scale(1);
+        }
+    
+        to{
+            transform: scale(1.13);
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    #topo{
+        display: block;
+    }
+
+    #topo h1{
+        width: 360px;
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    #sobre{
+        height: 950px;
+    }
+
+    #sobre img{
+        width: 320px;
+    }
+
+    #sobre h1{
+        font-size: 80px;
+    }
+
+    #sobre h2{
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    #sobre p{
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    #sobremesas{
+        height: 850px;
+    }
+    
+    #servicos{
+        height: 1800px;
+    }
+    
+    #contato{
+        padding-top: 160px;
+        height: 950px;
+    }
+
+    #contato form{
+        margin-left: 80px;
+    }
+
+    #contato button.btn{
+        margin-left: 45px;
+    }
+    
+    #links{
+        padding-top: 50px;
+        height: 1050px;
+    }
+
+    #links h1{
+        padding-top: 30px;
+    }
+
+    #links h2{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 15px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+    #topo{
+        display: block;
+    }
+
+    #topo h1{
+        width: 360px;
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    #sobre{
+        height: 950px;
+    }
+
+    #sobre img{
+        width: 320px;
+    }
+
+    #sobre h1{
+        font-size: 80px;
+    }
+
+    #sobre h2{
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    #sobre p{
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    #sobremesas{
+        height: 1050px;
+    }
+    
+    #servicos{
+        height: 1600px;
+    }
+    
+    #contato{
+        padding-top: 160px;
+        height: 950px;
+    }
+
+    #contato form{
+        margin-left: 80px;
+    }
+
+    #contato button.btn{
+        margin-left: 45px;
+    }
+    
+    #links{
+        padding-top: 50px;
+        height: 500px;
+    }
+
+    #links h1{
+        padding-top: 30px;
+    }
+
+    #links h2{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 15px;
+        font-size: 14px;
+    }
+}
